@@ -1,0 +1,5 @@
+### programacion II ###
+
+docker descargar y ver como funciona
+
+investigar los temas del programa
