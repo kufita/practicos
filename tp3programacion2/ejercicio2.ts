@@ -27,7 +27,7 @@ interface Tarea {
         console.log(`ID: ${tarea.id}`);
         console.log(`Descripción: ${tarea.descripcion}`);
         console.log(`Completada: ${tarea.completada}`);
-        console.log('----------------------');
+        
       }
     }
   
