@@ -11,4 +11,13 @@ class PartidoPolitico {
       this.candidatos.push(candidato);
     }
   }
- 
+  class Candidato {
+    nombre: string;
+    partido: PartidoPolitico;
+  
+    constructor(nombre: string, partido: PartidoPolitico) {
+      this.nombre = nombre;
+      this.partido = partido;
+    }
+  }
+  
