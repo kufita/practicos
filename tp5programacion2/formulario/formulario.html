@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario de registro</title>
     <link rel="stylesheet" href="estilo.css">
+    <script>
+        function enviarFormulario() {
+          alert("Se envió correctamente");
+        }
+      </script>
 </head>
 <body>
     <section class="form-register">
@@ -15,7 +20,7 @@
         <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese correo electronico">
         <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="ingrese su contraseña">
         <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">
+        <input class="botons" type="submit" value="Registrar" onclick="enviarFormulario()">
         <p><a href="#">¿Ya tengo una cuenta?</a></p>
     </section>
 </body>
