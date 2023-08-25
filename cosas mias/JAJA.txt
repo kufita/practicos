@@ -3,3 +3,4 @@
 docker descargar y ver como funciona
 
 investigar los temas del programa
+color zilla para hacer gradientes y css mastic
